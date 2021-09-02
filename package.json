@@ -2,6 +2,7 @@
   "name": "les-internetonautes.github.io",
   "version": "0.0.0",
   "repository": "git@github.com:Les-Internetonautes/les-internetonautes.github.io.git",
+  "license": "MIT",
   "private": true,
   "contributors": [
     {
@@ -11,10 +12,12 @@
     }
   ],
   "scripts": {
-    "start": "concurrently \"http-server .\""
+    "start": "concurrently \"http-server .\" \"yarn build -- --watch\"",
+    "build": "tailwindcss -i src/main.css -o build/main.css"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
-    "http-server": "^13.0.1"
+    "http-server": "^13.0.1",
+    "tailwindcss": "^2.2.9"
   }
 }
