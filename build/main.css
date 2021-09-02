@@ -32244,6 +32244,10 @@ video {
   content: none;
 }
 
+h1{
+  color: blue;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

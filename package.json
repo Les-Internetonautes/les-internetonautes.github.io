@@ -12,8 +12,9 @@
     }
   ],
   "scripts": {
-    "start": "concurrently \"http-server .\" \"yarn build -- --watch\"",
-    "build": "tailwindcss -i src/main.css -o build/main.css"
+    "start": "concurrently \"http-server .\" \"yarn build --watch\"",
+    "build": "tailwindcss -i src/main.css -o build/main.css",
+    "build:prod": "NODE_ENV=production yarn build"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",

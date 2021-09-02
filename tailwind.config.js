@@ -1,4 +1,7 @@
 module.exports = {
-  purge: ["index.html"],
   darkMode: false,
+  purge: {
+    enable: true,
+    content: ["./index.html"],
+  },
 };
