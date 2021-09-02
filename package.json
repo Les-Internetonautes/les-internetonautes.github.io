@@ -12,13 +12,16 @@
     }
   ],
   "scripts": {
-    "start": "concurrently \"http-server .\" \"yarn build --watch\"",
+    "start": "concurrently \"http-server .\"",
     "build": "tailwindcss -i src/main.css -o build/main.css",
     "build:prod": "NODE_ENV=production yarn build"
   },
   "devDependencies": {
+    "autoprefixer": "^10.3.3",
     "concurrently": "^6.2.1",
     "http-server": "^13.0.1",
-    "tailwindcss": "^2.2.9"
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9",
+    "vite": "^2.5.3"
   }
 }

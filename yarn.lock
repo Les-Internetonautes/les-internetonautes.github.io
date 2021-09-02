@@ -112,6 +112,18 @@ async@^2.6.2:
   dependencies:
     lodash "^4.17.14"
 
+autoprefixer@^10.3.3:
+  version "10.3.3"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.3.3.tgz#4bac89c74ef98e6a40fe1c5b76c0d1c91db153ce"
+  integrity sha512-yRzjxfnggrP/+qVHlUuZz5FZzEbkT+Yt0/Df6ScEMnbbZBLzYB2W0KLxoQCW+THm1SpOsM1ZPcTHAwuvmibIsQ==
+  dependencies:
+    browserslist "^4.16.8"
+    caniuse-lite "^1.0.30001252"
+    colorette "^1.3.0"
+    fraction.js "^4.1.1"
+    normalize-range "^0.1.2"
+    postcss-value-parser "^4.1.0"
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
@@ -142,6 +154,17 @@ braces@^3.0.1, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
+browserslist@^4.16.8:
+  version "4.16.8"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.8.tgz#cb868b0b554f137ba6e33de0ecff2eda403c4fb0"
+  integrity sha512-sc2m9ohR/49sWEbPj14ZSSZqp+kbi16aLao42Hmn3Z8FpjuMaq2xCA2l4zl9ITfyzvnvyE0hcg62YkIGKxgaNQ==
+  dependencies:
+    caniuse-lite "^1.0.30001251"
+    colorette "^1.3.0"
+    electron-to-chromium "^1.3.811"
+    escalade "^3.1.1"
+    node-releases "^1.1.75"
+
 bytes@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
@@ -164,6 +187,11 @@ camelcase-css@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/camelcase-css/-/camelcase-css-2.0.1.tgz#ee978f6947914cc30c6b44741b6ed1df7f043fd5"
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
+
+caniuse-lite@^1.0.30001251, caniuse-lite@^1.0.30001252:
+  version "1.0.30001252"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001252.tgz#cb16e4e3dafe948fc4a9bb3307aea054b912019a"
+  integrity sha512-I56jhWDGMtdILQORdusxBOH+Nl/KgQSdDmpJezYddnAkVOmnoU8zwjTV9xAjMIYxr0iPreEAVylCGcmHCjfaOw==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -246,7 +274,7 @@ color@^4.0.1:
     color-convert "^2.0.1"
     color-string "^1.6.0"
 
-colorette@^1.2.2:
+colorette@^1.2.2, colorette@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.3.0.tgz#ff45d2f0edb244069d3b772adeb04fed38d0a0af"
   integrity sha512-ecORCqbSFP7Wm8Y6lyqMJjexBQqXSF7SSeaTyGGphogUjBlFP9m9o08wy86HL2uB7fMTxtOUzLMk7ogKcxMg1w==
@@ -343,6 +371,11 @@ dlv@^1.1.3:
   resolved "https://registry.yarnpkg.com/dlv/-/dlv-1.1.3.tgz#5c198a8a11453596e751494d49874bc7732f2e79"
   integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
 
+electron-to-chromium@^1.3.811:
+  version "1.3.827"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.827.tgz#c725e8db8c5be18b472a919e5f57904512df0fc1"
+  integrity sha512-ye+4uQOY/jbjRutMcE/EmOcNwUeo1qo9aKL2tPyb09cU3lmxNeyDF4RWiemmkknW+p29h7dyDqy02higTxc9/A==
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
@@ -354,6 +387,11 @@ error-ex@^1.3.1:
   integrity sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==
   dependencies:
     is-arrayish "^0.2.1"
+
+esbuild@^0.12.17:
+  version "0.12.24"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.24.tgz#21966fad25a80f368ed308101e88102bce0dc68f"
+  integrity sha512-C0ibY+HsXzYB6L/pLWEiWjMpghKsIc58Q5yumARwBQsHl9DXPakW+5NI/Y9w4YXiz0PEP6XTGTT/OV4Nnsmb4A==
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -399,6 +437,11 @@ follow-redirects@^1.0.0:
   version "1.14.2"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.2.tgz#cecb825047c00f5e66b142f90fed4f515dec789b"
   integrity sha512-yLR6WaE2lbF0x4K2qE2p9PEXKLDjUjnR/xmjS3wHAYxtlsI9MLLBJUZirAHKzUZDGLxje7w/cXR49WOUo4rbsA==
+
+fraction.js@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.1.1.tgz#ac4e520473dae67012d618aab91eda09bcb400ff"
+  integrity sha512-MHOhvvxHTfRFpF1geTK9czMIZ6xclsEor2wkIGYYq+PxcQqT7vStJqjhe6S1TenZrMZzo+wlqOufBDVepUEgPg==
 
 fs-extra@^10.0.0:
   version "10.0.0"
@@ -712,6 +755,11 @@ node-emoji@^1.11.0:
   dependencies:
     lodash "^4.17.21"
 
+node-releases@^1.1.75:
+  version "1.1.75"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.75.tgz#6dd8c876b9897a1b8e5a02de26afa79bb54ebbfe"
+  integrity sha512-Qe5OUajvqrqDSy6wrWFmMwfJ0jVgwiw4T3KqmbTcZ62qW0gQkheXYhcFM1+lOVcGUoRxcEcfyvFMAnDgaF1VWw==
+
 normalize-package-data@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"
@@ -726,6 +774,11 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
+
+normalize-range@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
+  integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
 
 object-hash@^2.2.0:
   version "2.2.0"
@@ -837,7 +890,7 @@ postcss-value-parser@^4.1.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==
 
-postcss@^8.1.6, postcss@^8.2.1:
+postcss@^8.1.6, postcss@^8.2.1, postcss@^8.3.6:
   version "8.3.6"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.6.tgz#2730dd76a97969f37f53b9a6096197be311cc4ea"
   integrity sha512-wG1cc/JhRgdqB6WHEuyLTedf3KIRuD0hG6ldkFEZNCjRxiC+3i6kkWUUbiJQayP28iwG35cEmAbe98585BYV0A==
@@ -942,6 +995,13 @@ rimraf@^3.0.0:
   integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
+
+rollup@^2.38.5:
+  version "2.56.3"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.56.3.tgz#b63edadd9851b0d618a6d0e6af8201955a77aeff"
+  integrity sha512-Au92NuznFklgQCUcV96iXlxUbHuB1vQMaH76DHl5M11TotjOHwqk9CwcrT78+Tnv4FN9uTBxq6p4EJoYkpyekg==
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 run-parallel@^1.1.9:
   version "1.2.0"
@@ -1151,6 +1211,18 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+vite@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.5.3.tgz#88d40a9efb9bec66bd87a7676c5689f35ff63742"
+  integrity sha512-1wMDnjflvtTTkMov8O/Xb5+w1/VW/Gw8oCf8f6dqgHn8lMOEqq0SaPtFEQeikFcOKCfSbiU0nEi0LDIx6DNsaQ==
+  dependencies:
+    esbuild "^0.12.17"
+    postcss "^8.3.6"
+    resolve "^1.20.0"
+    rollup "^2.38.5"
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 wrap-ansi@^7.0.0:
   version "7.0.0"
