@@ -21,7 +21,6 @@
     "concurrently": "^6.2.1",
     "http-server": "^13.0.1",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.9",
     "vite": "^2.5.3"
   }
 }
