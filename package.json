@@ -1,0 +1,20 @@
+{
+  "name": "les-internetonautes.github.io",
+  "version": "0.0.0",
+  "repository": "git@github.com:Les-Internetonautes/les-internetonautes.github.io.git",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Yannick Debrée",
+      "email": "contact@yannickdebree.com",
+      "url": "https://yannickdebree.com"
+    }
+  ],
+  "scripts": {
+    "start": "concurrently \"http-server .\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "http-server": "^13.0.1"
+  }
+}
