@@ -24,3 +24,5 @@ function main() {
 }
 
 window.addEventListener("load", main);
+
+console.log("Test");

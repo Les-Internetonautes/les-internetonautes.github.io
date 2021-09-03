@@ -5,5 +5,5 @@ package-lock.json
 # Jetbrains IDE config files
 .idea
 
-# Yarn log file
+# Yarn log files
 yarn-error.log
