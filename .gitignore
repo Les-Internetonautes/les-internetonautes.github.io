@@ -1,3 +1,9 @@
 # Node dependencies
 node_modules
 package-lock.json
+
+# Jetbrains IDE config files
+.idea
+
+# Yarn log file
+yarn-error.log
